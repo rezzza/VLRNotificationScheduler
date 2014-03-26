@@ -6,8 +6,16 @@
 //  Copyright (c) 2014 Lucas Ortis. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+/* Imports */
+#import                                                             <UIKit/UIKit.h>
+#import                                                             "VLRNotificationScheduler.h"
+#import                                                             "VLRNotificationSettings.h"
 
 @interface ViewController : UIViewController
+{
+}
+
+/* Methods */
+- (void)initScheduler;
 
 @end

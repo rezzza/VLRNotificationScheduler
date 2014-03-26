@@ -6,14 +6,10 @@
 //  Copyright (c) 2014 Lucas Ortis. All rights reserved.
 //
 
-/* Imports */
-#import                                                             <UIKit/UIKit.h>
+#import <UIKit/UIKit.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-{
-}
 
-/* Properties */
 @property (strong, nonatomic) UIWindow *window;
 
 @end

@@ -21,6 +21,9 @@
 		BEE5ECAD18E160C100239EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5EC8F18E160C100239EDF /* UIKit.framework */; };
 		BEE5ECB518E160C100239EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE5ECB318E160C100239EDF /* InfoPlist.strings */; };
 		BEE5ECB718E160C100239EDF /* VLRNotificationSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ECB618E160C100239EDF /* VLRNotificationSchedulerTests.m */; };
+		BEE5ECD318E1D00A00239EDF /* VLRNotificationSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ECCE18E1D00A00239EDF /* VLRNotificationSchedule.m */; };
+		BEE5ECD418E1D00A00239EDF /* VLRNotificationScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ECD018E1D00A00239EDF /* VLRNotificationScheduler.m */; };
+		BEE5ECD518E1D00A00239EDF /* VLRNotificationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ECD218E1D00A00239EDF /* VLRNotificationSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		BEE5ECB218E160C100239EDF /* VLRNotificationSchedulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLRNotificationSchedulerTests-Info.plist"; sourceTree = "<group>"; };
 		BEE5ECB418E160C100239EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BEE5ECB618E160C100239EDF /* VLRNotificationSchedulerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VLRNotificationSchedulerTests.m; sourceTree = "<group>"; };
+		BEE5ECCD18E1D00A00239EDF /* VLRNotificationSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLRNotificationSchedule.h; path = ../../../VLRNotificationScheduler/VLRNotificationSchedule.h; sourceTree = "<group>"; };
+		BEE5ECCE18E1D00A00239EDF /* VLRNotificationSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationSchedule.m; path = ../../../VLRNotificationScheduler/VLRNotificationSchedule.m; sourceTree = "<group>"; };
+		BEE5ECCF18E1D00A00239EDF /* VLRNotificationScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLRNotificationScheduler.h; path = ../../../VLRNotificationScheduler/VLRNotificationScheduler.h; sourceTree = "<group>"; };
+		BEE5ECD018E1D00A00239EDF /* VLRNotificationScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationScheduler.m; path = ../../../VLRNotificationScheduler/VLRNotificationScheduler.m; sourceTree = "<group>"; };
+		BEE5ECD118E1D00A00239EDF /* VLRNotificationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLRNotificationSettings.h; path = ../../../VLRNotificationScheduler/VLRNotificationSettings.h; sourceTree = "<group>"; };
+		BEE5ECD218E1D00A00239EDF /* VLRNotificationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationSettings.m; path = ../../../VLRNotificationScheduler/VLRNotificationSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,11 @@
 		BEE5EC9118E160C100239EDF /* VLRNotificationScheduler */ = {
 			isa = PBXGroup;
 			children = (
-				BEE5EC9A18E160C100239EDF /* AppDelegate.h */,
+				BEE5ECD618E1D3DA00239EDF /* Sources */,
+				BEE5ECC018E1612E00239EDF /* Ressources */,
+				BEE5ECC218E1614000239EDF /* Controllers */,
 				BEE5EC9B18E160C100239EDF /* AppDelegate.m */,
-				BEE5EC9D18E160C100239EDF /* Main.storyboard */,
-				BEE5ECA018E160C100239EDF /* ViewController.h */,
-				BEE5ECA118E160C100239EDF /* ViewController.m */,
+				BEE5EC9A18E160C100239EDF /* AppDelegate.h */,
 				BEE5ECA318E160C100239EDF /* Images.xcassets */,
 				BEE5EC9218E160C100239EDF /* Supporting Files */,
 			);
@@ -150,6 +159,44 @@
 				BEE5ECB318E160C100239EDF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE5ECC018E1612E00239EDF /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ECC118E1613400239EDF /* Storyboards */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		BEE5ECC118E1613400239EDF /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5EC9D18E160C100239EDF /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		BEE5ECC218E1614000239EDF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ECA018E160C100239EDF /* ViewController.h */,
+				BEE5ECA118E160C100239EDF /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		BEE5ECD618E1D3DA00239EDF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ECCD18E1D00A00239EDF /* VLRNotificationSchedule.h */,
+				BEE5ECCE18E1D00A00239EDF /* VLRNotificationSchedule.m */,
+				BEE5ECCF18E1D00A00239EDF /* VLRNotificationScheduler.h */,
+				BEE5ECD018E1D00A00239EDF /* VLRNotificationScheduler.m */,
+				BEE5ECD118E1D00A00239EDF /* VLRNotificationSettings.h */,
+				BEE5ECD218E1D00A00239EDF /* VLRNotificationSettings.m */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +296,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEE5ECD518E1D00A00239EDF /* VLRNotificationSettings.m in Sources */,
+				BEE5ECD418E1D00A00239EDF /* VLRNotificationScheduler.m in Sources */,
+				BEE5ECD318E1D00A00239EDF /* VLRNotificationSchedule.m in Sources */,
 				BEE5ECA218E160C100239EDF /* ViewController.m in Sources */,
 				BEE5EC9C18E160C100239EDF /* AppDelegate.m in Sources */,
 				BEE5EC9818E160C100239EDF /* main.m in Sources */,
@@ -456,6 +506,7 @@
 				BEE5ECBC18E160C100239EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BEE5ECBD18E160C100239EDF /* Build configuration list for PBXNativeTarget "VLRNotificationSchedulerTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +515,7 @@
 				BEE5ECBF18E160C100239EDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
