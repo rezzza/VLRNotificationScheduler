@@ -16,6 +16,5 @@ DerivedData
 .idea/
 *.hmap
 *.xccheckout
-Tests/VLRNotificationScheduler/build/
 #CocoaPods
 Pods
