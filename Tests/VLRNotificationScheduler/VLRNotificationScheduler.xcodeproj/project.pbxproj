@@ -413,7 +413,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
 				INFOPLIST_FILE = "VLRNotificationScheduler/VLRNotificationScheduler-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -427,7 +427,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
 				INFOPLIST_FILE = "VLRNotificationScheduler/VLRNotificationScheduler-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -449,7 +449,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "VLRNotificationSchedulerTests/VLRNotificationSchedulerTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -469,7 +469,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
 				INFOPLIST_FILE = "VLRNotificationSchedulerTests/VLRNotificationSchedulerTests-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";

@@ -4,4 +4,4 @@ before_script:
 - gem install xcpretty
 
 script:
-- xcodebuild -project Tests/VLRNotificationScheduler/VLRNotificationScheduler.xcodeproj -scheme VLRNotificationSchedulerTests -sdk iphonesimulator test | xcpretty
+- xcodebuild -project Tests/VLRNotificationScheduler/VLRNotificationScheduler.xcodeproj -scheme VLRNotificationSchedulerTests -sdk iphonesimulator test > /tmp/output; ret=$?; cat /tmp/output | xcpretty -c; exit $ret;
