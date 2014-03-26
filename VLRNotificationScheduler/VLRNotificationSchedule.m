@@ -54,9 +54,9 @@
 - (NSString *)description {
     return [NSString stringWithFormat:
             @"lastUpdate: %@ \
-              eventCount: %d \
+              eventCount: %ld \
               Settings: %@",
-            _lastUpdate, _eventCount, _vlrNotificationSettings];
+            _lastUpdate, (unsigned long)_eventCount, _vlrNotificationSettings];
 }
 
 - (void)resetIfNeeded {
