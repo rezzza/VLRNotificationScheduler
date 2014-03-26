@@ -1,0 +1,7 @@
+language: objective-c
+
+before_script: 
+- gem install xcpretty
+
+script:
+- xcodebuild -project Tests/VLRNotificationScheduler/VLRNotificationScheduler.xcodeproj -scheme VLRNotificationSchedulerTests -sdk iphonesimulator test | xcpretty

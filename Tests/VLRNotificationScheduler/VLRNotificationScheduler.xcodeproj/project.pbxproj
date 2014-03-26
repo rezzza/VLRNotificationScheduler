@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE5FA18918E2BCE700BB587D /* VLRNotificationScheduleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5FA18818E2BCE700BB587D /* VLRNotificationScheduleTests.m */; };
+		BE5FA18B18E2C5E200BB587D /* VLRNotificationSchedulerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5FA18A18E2C5E200BB587D /* VLRNotificationSchedulerTests.m */; };
+		BEE5ED2F18E1D59F00239EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5ED2E18E1D59F00239EDF /* Foundation.framework */; };
+		BEE5ED3118E1D59F00239EDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5ED3018E1D59F00239EDF /* CoreGraphics.framework */; };
+		BEE5ED3318E1D59F00239EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5ED3218E1D59F00239EDF /* UIKit.framework */; };
+		BEE5ED3918E1D59F00239EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE5ED3718E1D59F00239EDF /* InfoPlist.strings */; };
+		BEE5ED3B18E1D59F00239EDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED3A18E1D59F00239EDF /* main.m */; };
+		BEE5ED3F18E1D59F00239EDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED3E18E1D59F00239EDF /* AppDelegate.m */; };
+		BEE5ED4218E1D59F00239EDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE5ED4018E1D59F00239EDF /* Main.storyboard */; };
+		BEE5ED4518E1D59F00239EDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED4418E1D59F00239EDF /* ViewController.m */; };
+		BEE5ED4718E1D59F00239EDF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE5ED4618E1D59F00239EDF /* Images.xcassets */; };
+		BEE5ED4E18E1D59F00239EDF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5ED4D18E1D59F00239EDF /* XCTest.framework */; };
+		BEE5ED4F18E1D59F00239EDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5ED2E18E1D59F00239EDF /* Foundation.framework */; };
+		BEE5ED5018E1D59F00239EDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEE5ED3218E1D59F00239EDF /* UIKit.framework */; };
+		BEE5ED5818E1D59F00239EDF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BEE5ED5618E1D59F00239EDF /* InfoPlist.strings */; };
+		BEE5ED6A18E1D5BA00239EDF /* VLRNotificationSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED6518E1D5BA00239EDF /* VLRNotificationSchedule.m */; };
+		BEE5ED6B18E1D5BA00239EDF /* VLRNotificationScheduler.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED6718E1D5BA00239EDF /* VLRNotificationScheduler.m */; };
+		BEE5ED6C18E1D5BA00239EDF /* VLRNotificationSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED6918E1D5BA00239EDF /* VLRNotificationSettings.m */; };
+		BEE5ED7018E1D6B000239EDF /* VLRNotificationSettingsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE5ED6F18E1D6B000239EDF /* VLRNotificationSettingsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BEA9821418E2F9CC00247928 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BEE5ED2318E1D59F00239EDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BEE5ED2A18E1D59F00239EDF;
+			remoteInfo = VLRNotificationScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE5FA18818E2BCE700BB587D /* VLRNotificationScheduleTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLRNotificationScheduleTests.m; sourceTree = "<group>"; };
+		BE5FA18A18E2C5E200BB587D /* VLRNotificationSchedulerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VLRNotificationSchedulerTests.m; sourceTree = "<group>"; };
+		BEE5ED2B18E1D59F00239EDF /* VLRNotificationScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VLRNotificationScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE5ED2E18E1D59F00239EDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BEE5ED3018E1D59F00239EDF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BEE5ED3218E1D59F00239EDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BEE5ED3618E1D59F00239EDF /* VLRNotificationScheduler-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLRNotificationScheduler-Info.plist"; sourceTree = "<group>"; };
+		BEE5ED3818E1D59F00239EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE5ED3A18E1D59F00239EDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BEE5ED3C18E1D59F00239EDF /* VLRNotificationScheduler-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VLRNotificationScheduler-Prefix.pch"; sourceTree = "<group>"; };
+		BEE5ED3D18E1D59F00239EDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BEE5ED3E18E1D59F00239EDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BEE5ED4118E1D59F00239EDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BEE5ED4318E1D59F00239EDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BEE5ED4418E1D59F00239EDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BEE5ED4618E1D59F00239EDF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BEE5ED4C18E1D59F00239EDF /* VLRNotificationSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VLRNotificationSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEE5ED4D18E1D59F00239EDF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BEE5ED5518E1D59F00239EDF /* VLRNotificationSchedulerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VLRNotificationSchedulerTests-Info.plist"; sourceTree = "<group>"; };
+		BEE5ED5718E1D59F00239EDF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BEE5ED6418E1D5BA00239EDF /* VLRNotificationSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLRNotificationSchedule.h; path = ../../../VLRNotificationScheduler/VLRNotificationSchedule.h; sourceTree = "<group>"; };
+		BEE5ED6518E1D5BA00239EDF /* VLRNotificationSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationSchedule.m; path = ../../../VLRNotificationScheduler/VLRNotificationSchedule.m; sourceTree = "<group>"; };
+		BEE5ED6618E1D5BA00239EDF /* VLRNotificationScheduler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLRNotificationScheduler.h; path = ../../../VLRNotificationScheduler/VLRNotificationScheduler.h; sourceTree = "<group>"; };
+		BEE5ED6718E1D5BA00239EDF /* VLRNotificationScheduler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationScheduler.m; path = ../../../VLRNotificationScheduler/VLRNotificationScheduler.m; sourceTree = "<group>"; };
+		BEE5ED6818E1D5BA00239EDF /* VLRNotificationSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VLRNotificationSettings.h; path = ../../../VLRNotificationScheduler/VLRNotificationSettings.h; sourceTree = "<group>"; };
+		BEE5ED6918E1D5BA00239EDF /* VLRNotificationSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationSettings.m; path = ../../../VLRNotificationScheduler/VLRNotificationSettings.m; sourceTree = "<group>"; };
+		BEE5ED6F18E1D6B000239EDF /* VLRNotificationSettingsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VLRNotificationSettingsTests.m; path = ../VLRNotificationSettingsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BEE5ED2818E1D59F00239EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5ED3118E1D59F00239EDF /* CoreGraphics.framework in Frameworks */,
+				BEE5ED3318E1D59F00239EDF /* UIKit.framework in Frameworks */,
+				BEE5ED2F18E1D59F00239EDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5ED4918E1D59F00239EDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5ED4E18E1D59F00239EDF /* XCTest.framework in Frameworks */,
+				BEE5ED5018E1D59F00239EDF /* UIKit.framework in Frameworks */,
+				BEE5ED4F18E1D59F00239EDF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BEE5ED2218E1D59F00239EDF = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED3418E1D59F00239EDF /* VLRNotificationScheduler */,
+				BEE5ED5318E1D59F00239EDF /* VLRNotificationSchedulerTests */,
+				BEE5ED2D18E1D59F00239EDF /* Frameworks */,
+				BEE5ED2C18E1D59F00239EDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BEE5ED2C18E1D59F00239EDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED2B18E1D59F00239EDF /* VLRNotificationScheduler.app */,
+				BEE5ED4C18E1D59F00239EDF /* VLRNotificationSchedulerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEE5ED2D18E1D59F00239EDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED2E18E1D59F00239EDF /* Foundation.framework */,
+				BEE5ED3018E1D59F00239EDF /* CoreGraphics.framework */,
+				BEE5ED3218E1D59F00239EDF /* UIKit.framework */,
+				BEE5ED4D18E1D59F00239EDF /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEE5ED3418E1D59F00239EDF /* VLRNotificationScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED6318E1D5A400239EDF /* Sources */,
+				BEE5ED3D18E1D59F00239EDF /* AppDelegate.h */,
+				BEE5ED3E18E1D59F00239EDF /* AppDelegate.m */,
+				BEE5ED4018E1D59F00239EDF /* Main.storyboard */,
+				BEE5ED4318E1D59F00239EDF /* ViewController.h */,
+				BEE5ED4418E1D59F00239EDF /* ViewController.m */,
+				BEE5ED4618E1D59F00239EDF /* Images.xcassets */,
+				BEE5ED3518E1D59F00239EDF /* Supporting Files */,
+			);
+			path = VLRNotificationScheduler;
+			sourceTree = "<group>";
+		};
+		BEE5ED3518E1D59F00239EDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED3618E1D59F00239EDF /* VLRNotificationScheduler-Info.plist */,
+				BEE5ED3718E1D59F00239EDF /* InfoPlist.strings */,
+				BEE5ED3A18E1D59F00239EDF /* main.m */,
+				BEE5ED3C18E1D59F00239EDF /* VLRNotificationScheduler-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE5ED5318E1D59F00239EDF /* VLRNotificationSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE5FA18A18E2C5E200BB587D /* VLRNotificationSchedulerTests.m */,
+				BE5FA18818E2BCE700BB587D /* VLRNotificationScheduleTests.m */,
+				BEE5ED6F18E1D6B000239EDF /* VLRNotificationSettingsTests.m */,
+				BEE5ED5418E1D59F00239EDF /* Supporting Files */,
+			);
+			path = VLRNotificationSchedulerTests;
+			sourceTree = "<group>";
+		};
+		BEE5ED5418E1D59F00239EDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED5518E1D59F00239EDF /* VLRNotificationSchedulerTests-Info.plist */,
+				BEE5ED5618E1D59F00239EDF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BEE5ED6318E1D5A400239EDF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				BEE5ED6418E1D5BA00239EDF /* VLRNotificationSchedule.h */,
+				BEE5ED6518E1D5BA00239EDF /* VLRNotificationSchedule.m */,
+				BEE5ED6618E1D5BA00239EDF /* VLRNotificationScheduler.h */,
+				BEE5ED6718E1D5BA00239EDF /* VLRNotificationScheduler.m */,
+				BEE5ED6818E1D5BA00239EDF /* VLRNotificationSettings.h */,
+				BEE5ED6918E1D5BA00239EDF /* VLRNotificationSettings.m */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BEE5ED2A18E1D59F00239EDF /* VLRNotificationScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE5ED5D18E1D59F00239EDF /* Build configuration list for PBXNativeTarget "VLRNotificationScheduler" */;
+			buildPhases = (
+				BEE5ED2718E1D59F00239EDF /* Sources */,
+				BEE5ED2818E1D59F00239EDF /* Frameworks */,
+				BEE5ED2918E1D59F00239EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VLRNotificationScheduler;
+			productName = VLRNotificationScheduler;
+			productReference = BEE5ED2B18E1D59F00239EDF /* VLRNotificationScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BEE5ED4B18E1D59F00239EDF /* VLRNotificationSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE5ED6018E1D59F00239EDF /* Build configuration list for PBXNativeTarget "VLRNotificationSchedulerTests" */;
+			buildPhases = (
+				BEE5ED4818E1D59F00239EDF /* Sources */,
+				BEE5ED4918E1D59F00239EDF /* Frameworks */,
+				BEE5ED4A18E1D59F00239EDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BEA9821518E2F9CC00247928 /* PBXTargetDependency */,
+			);
+			name = VLRNotificationSchedulerTests;
+			productName = VLRNotificationSchedulerTests;
+			productReference = BEE5ED4C18E1D59F00239EDF /* VLRNotificationSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEE5ED2318E1D59F00239EDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lucas Ortis";
+				TargetAttributes = {
+					BEE5ED4B18E1D59F00239EDF = {
+						TestTargetID = BEE5ED2A18E1D59F00239EDF;
+					};
+				};
+			};
+			buildConfigurationList = BEE5ED2618E1D59F00239EDF /* Build configuration list for PBXProject "VLRNotificationScheduler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BEE5ED2218E1D59F00239EDF;
+			productRefGroup = BEE5ED2C18E1D59F00239EDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BEE5ED2A18E1D59F00239EDF /* VLRNotificationScheduler */,
+				BEE5ED4B18E1D59F00239EDF /* VLRNotificationSchedulerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BEE5ED2918E1D59F00239EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5ED4718E1D59F00239EDF /* Images.xcassets in Resources */,
+				BEE5ED3918E1D59F00239EDF /* InfoPlist.strings in Resources */,
+				BEE5ED4218E1D59F00239EDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5ED4A18E1D59F00239EDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5ED5818E1D59F00239EDF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BEE5ED2718E1D59F00239EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE5ED6C18E1D5BA00239EDF /* VLRNotificationSettings.m in Sources */,
+				BEE5ED6B18E1D5BA00239EDF /* VLRNotificationScheduler.m in Sources */,
+				BEE5ED6A18E1D5BA00239EDF /* VLRNotificationSchedule.m in Sources */,
+				BEE5ED4518E1D59F00239EDF /* ViewController.m in Sources */,
+				BEE5ED3F18E1D59F00239EDF /* AppDelegate.m in Sources */,
+				BEE5ED3B18E1D59F00239EDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEE5ED4818E1D59F00239EDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE5FA18918E2BCE700BB587D /* VLRNotificationScheduleTests.m in Sources */,
+				BE5FA18B18E2C5E200BB587D /* VLRNotificationSchedulerTests.m in Sources */,
+				BEE5ED7018E1D6B000239EDF /* VLRNotificationSettingsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BEA9821518E2F9CC00247928 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BEE5ED2A18E1D59F00239EDF /* VLRNotificationScheduler */;
+			targetProxy = BEA9821418E2F9CC00247928 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BEE5ED3718E1D59F00239EDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE5ED3818E1D59F00239EDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BEE5ED4018E1D59F00239EDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE5ED4118E1D59F00239EDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BEE5ED5618E1D59F00239EDF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEE5ED5718E1D59F00239EDF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BEE5ED5B18E1D59F00239EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BEE5ED5C18E1D59F00239EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BEE5ED5E18E1D59F00239EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
+				INFOPLIST_FILE = "VLRNotificationScheduler/VLRNotificationScheduler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BEE5ED5F18E1D59F00239EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
+				INFOPLIST_FILE = "VLRNotificationScheduler/VLRNotificationScheduler-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BEE5ED6118E1D59F00239EDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLRNotificationScheduler.app/VLRNotificationScheduler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "VLRNotificationSchedulerTests/VLRNotificationSchedulerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BEE5ED6218E1D59F00239EDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/VLRNotificationScheduler.app/VLRNotificationScheduler";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VLRNotificationScheduler/VLRNotificationScheduler-Prefix.pch";
+				INFOPLIST_FILE = "VLRNotificationSchedulerTests/VLRNotificationSchedulerTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BEE5ED2618E1D59F00239EDF /* Build configuration list for PBXProject "VLRNotificationScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE5ED5B18E1D59F00239EDF /* Debug */,
+				BEE5ED5C18E1D59F00239EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BEE5ED5D18E1D59F00239EDF /* Build configuration list for PBXNativeTarget "VLRNotificationScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE5ED5E18E1D59F00239EDF /* Debug */,
+				BEE5ED5F18E1D59F00239EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BEE5ED6018E1D59F00239EDF /* Build configuration list for PBXNativeTarget "VLRNotificationSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEE5ED6118E1D59F00239EDF /* Debug */,
+				BEE5ED6218E1D59F00239EDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEE5ED2318E1D59F00239EDF /* Project object */;
+}
