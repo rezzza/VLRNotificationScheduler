@@ -44,7 +44,7 @@
 }
 
 - (void)incrementEventCount {
-    _eventCount += 1;
+    _eventCount = (_eventCount == (NSUIntegerMax - 1)) ? 0 : _eventCount + 1;
 }
 
 - (void)update {
